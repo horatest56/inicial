@@ -1,0 +1,4 @@
+
+jupyter nbconvert test_fortune_3.ipynb --TagRemovePreprocessor.enabled=True --TagRemovePreprocessor.remove_input_tags="['marca1', 'other_tag_to_remove']" --to html --output ejemplo.html
+
+https://nbconvert.readthedocs.io/en/latest/config_options.html
